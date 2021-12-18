@@ -1,0 +1,28 @@
+div{
+    width: 500px;
+    border: 2px solid red;
+}
+
+div p{
+    text-align: center;
+    color: #e3e3e3;
+}
+
+
+div, p{
+    text-align: center;
+    color: #e3e3e3;
+}
+
+/* copil direct */
+div > p{
+    text-align: center;
+    color: #e3e3e3;
+}
+
+/* imediat dupa */
+div + p{
+    text-align: center;
+    color: #e3e3e3; 
+}
+
