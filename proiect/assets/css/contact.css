@@ -1,0 +1,45 @@
+#formJob{
+    margin-bottom: 50px;
+}
+
+#formJob div{
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#formJob label{
+    display: inline-block;
+    width: 20%;
+}
+
+#formJob input[type="reset"],
+#formJob input[type="submit"]{
+    padding: 20px 30px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#formJob input[type="reset"]{
+    background: red;
+}
+
+#formJob input[type="submit"]{
+    background:green;
+}
+
+#formJob label#oras-label{
+    width: 100%;
+}
+
+#formJob select{
+    width: 100%;
+    padding: 5px 10px;
+}
+
+

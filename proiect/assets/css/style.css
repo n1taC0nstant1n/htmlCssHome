@@ -157,7 +157,8 @@ body {
     font-family: 'Moon Dance', cursive;
     font-size: 36px;
   }
-  nav ul li a.active{
+  nav ul li a.active,
+  nav ul li a:hover{
     color: red;
   }
 
@@ -238,4 +239,19 @@ body {
     #section-b li {
       width: 31%;
     }
+
+    #main.contact,
+    #main.blog{
+      background: #fff;
+      color: #000;
+    }
+
+    #main.blog table{
+      width: 50%;
+      margin: 0 auto 30px auto;
+
+    }
+
+    #main.blog table#tbl_1{
+      margin-top: 30px;
   }
