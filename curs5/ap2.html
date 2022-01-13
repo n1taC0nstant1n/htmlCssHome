@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicatia 2</title>
+    <style>
+       @media (max-width: 640px){
+           .mob{
+               display: block;
+           }
+           div:not(.mob){
+               display: none;
+           }
+       }
+
+       @media (min-width : 641px) and (max-width : 767px){
+           .tab{
+               display: block;
+           }
+           div:not(.tab){
+               display: none;
+           }
+       }
+
+       @media (min-width:768px) and (max-width:1223px){
+           .lap{
+               display: block;
+           }
+           div:not(.lap){
+               display: none;
+           }
+       }
+
+       @media (min-width:1224px){
+           .desk{
+               display: block;
+           }
+           div:not(.desk){
+               display: none;
+           }
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="desk">
+        <h1>Desktop</h1>
+        <img src="images/desk.png" alt="Desktop" style="width:100%">
+    </div>
+    <div class="lap">
+        <h1>Laptop</h1>
+        <img src="images/lap.jpeg" alt="" style="width:100%">
+    </div>
+    <div class="tab">
+        <h1>Tableta</h1>
+        <img src="images/tab.png" alt="" style="width:100%">
+    </div>
+    <div class="mob">
+        <h1>Mobil</h1>
+        <img src="images/mob.jpg" alt="" style="width:100%">
+    </div>
+</body>
+</html>
